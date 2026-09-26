@@ -1,0 +1,43 @@
+# 登录态、课程报告和答案（不得发布）
+.private/
+output/
+*answer-key*.json
+*verified-answers*.json
+*course-run-data*.json
+*storage-state*.json
+*cookies*.json
+
+# 本地测试、设计草稿与运行产物
+tests/
+docs/plans/
+playwright-report/
+test-results/
+screenshots/
+traces/
+*.har
+*.trace.zip
+*.log
+*.tmp
+*.bak
+
+# Python 环境与缓存
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 本地配置、编辑器和系统文件
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.codex/
+.agents/
+*.code-workspace
+.DS_Store
+Thumbs.db
